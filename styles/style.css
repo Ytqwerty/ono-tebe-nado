@@ -12,13 +12,30 @@
 }
 
 .header__link {
-    text-decoration: underline;
     font-size: 18px;
+    text-decoration: underline;
+}
+.header__links-list-item:first-child .header__link {
+    text-decoration: none;
 }
 
 .header__logo-image {
     width: 148px;
     height: 105px;
+}
+
+.header__links-list {
+    display: flex;
+    list-style: circle;
+}
+.header__links-list-item{
+    margin-right: 30px;
+}
+.header__links-list-item:first-child {
+    list-style: none;
+}
+.header__links-list-item:last-child {
+    margin-right: 0;
 }
 
 .lots__look-more-link {

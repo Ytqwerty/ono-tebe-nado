@@ -6,6 +6,7 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="fonts/fonts.css"/>
 </head>
 <body>
 <div class="header">
@@ -22,13 +23,13 @@
             </li>
         </ul>
     </div>
-    <div class="header__logo">
+    <a class="header__logo">
         <img src="./images/logo-black.svg" alt="Логотип" class="header__logo-image"/>
-    </div>
-    <address class="header__address">
-        <p>+9 999 555 5555</p>
-        <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
-        <p>наб. Принсенграхт 263-265, Амстердам</p>
+    </a>
+    <address class="footer__address">
+        <a class="footer__link" href="tel:+9995555555">+9 999 555 5555</a>
+        <a class="footer__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <span>наб. Принсенграхт 263-265, Амстердам</span>
     </address>
 </div>
 <div class="cover">
@@ -47,7 +48,7 @@
 <div class="lots">
     <h2 class="lots__heading">Лоты</h2>
     <ul class="lots__card-list">
-        <li class="lots__card card card_type_film">
+        <li class="lots__card card_type_film">
             <a href="#" class="card__link">
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">
@@ -56,7 +57,7 @@
                 </p>
             </a>
         </li>
-        <li class="lots__card card card_type_book">
+        <li class="lots__card card_type_book">
             <a href="#" class="card__link">
                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card__text">
@@ -67,7 +68,7 @@
                 </p>
             </a>
         </li>
-        <li class="lots__card card card_type_picture">
+        <li class="lots__card card_type_picture">
             <a href="#" class="card__link">
                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">
@@ -84,7 +85,7 @@
     <div class="about__column about__column_logo">
         <img src="images/logo-white.jpg" alt="Оно тебе надо" class="about__logo">
     </div>
-    <div class="about__column about__column_text">
+    <div class="about__column">
         <h2 class="about__title">Об аукционе</h2>
         <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
@@ -101,18 +102,23 @@
     </div>
 </div>
 <div class="footer">
-    <div class="footer__column footer__column_address">
+    <div class="footer__column">
         <address class="footer__address">
-            <a class="footer__link" href="tel:+9995555555">+9 999 555 5555</a><br>
-            <a class="footer__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
-            наб. Принсенграхт 263-265, Амстердам
+            <a class="footer__link" href="tel:+9995555555">+9 999 555 5555</a>
+            <a class="footer__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <span>наб. Принсенграхт 263-265, Амстердам</span>
         </address>
     </div>
     <div class="footer__column ">
         <ul class="footer__menu">
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link">главная</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link">посмотреть лоты</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_active">об аукционе</a>
+            <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">главная</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">посмотреть лоты</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link footer__menu-link_active">об аукционе</a>
             </li>
         </ul>
     </div>
